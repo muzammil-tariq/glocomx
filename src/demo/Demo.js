@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import Header from '../components/Header';
-import Upperheader from '../components/Upperheader';
-import Footertwo from '../components/Footertwo';
-import Slider from 'react-slick';
 import './demo.css';
 
 const brandList = [
@@ -138,8 +133,6 @@ const feedbackList = [
 
 class Hometwo extends Component {
   render() {
-  }
-}
     const brandsettings = {
       arrows: false,
       dots: false,
@@ -199,8 +192,7 @@ class Hometwo extends Component {
           },
         },
       ],
-    class: Demo, extends: Component,
-        render() {
+    };
     return (
       <Fragment>
         <Upperheader />
@@ -651,4 +643,5 @@ class Hometwo extends Component {
     );
   }
 }
+
 export default Hometwo;
