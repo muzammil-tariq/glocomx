@@ -87,11 +87,9 @@ import * as serviceWorker from './serviceWorker';
 class Root extends Component {
   render() {
     return (
-      <BrowserRouter basename={'/'}>
-        <Switch>
-          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo} />
-        </Switch>
-      </BrowserRouter>
+            <BrowserRouter>
+                <Demo />
+            </BrowserRouter>
     );
   }
 }
