@@ -138,6 +138,8 @@ const feedbackList = [
 
 class Hometwo extends Component {
   render() {
+  }
+}
     const brandsettings = {
       arrows: false,
       dots: false,
@@ -197,7 +199,8 @@ class Hometwo extends Component {
           },
         },
       ],
-    };
+    class: Demo, extends: Component,
+        render() {
     return (
       <Fragment>
         <Upperheader />
@@ -648,5 +651,4 @@ class Hometwo extends Component {
     );
   }
 }
-
 export default Hometwo;
