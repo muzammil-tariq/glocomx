@@ -11,41 +11,41 @@ import Myclass from '../components/Myclass';
 const latestList = [
   {
     imageUrl: 'course.png',
-    title: 'Fundamentals for Scrum Master and Agile Projects ',
+    title: 'Fundamentals for NFTs Trading ',
     price: '670',
-    tag: 'Python',
+    tag: 'CPA',
     lesson: '32 ',
     status: 'alert-warning text-warning',
   },
   {
-    imageUrl: 'course.png',
-    title: 'Automate the Boring Stuff with Python Programming',
+    imageUrl: 'course-2.png',
+    title: 'Tracability Technology Course',
     price: '760',
-    tag: 'Bootstrap',
+    tag: 'Walll Street Analyst',
     lesson: '14 ',
     status: 'alert-primary text-primary',
   },
   {
-    imageUrl: 'course.png',
-    title: 'The Data Science Course Complete Data Science ',
+    imageUrl: 'course-3.png',
+    title: 'Import and Export Education',
     price: '370',
-    tag: 'Develop',
+    tag: 'CFA',
     lesson: '23 ',
     status: 'alert-danger text-danger',
   },
   {
-    imageUrl: 'course.png',
-    title: 'Complete Python Bootcamp From Zero to Hero in Python ',
+    imageUrl: 'course-4.png',
+    title: 'Global Commerce and NFT Trading ',
     price: '2400',
-    tag: 'Python',
+    tag: 'CPA',
     lesson: '32 ',
     status: 'alert-warning text-warning',
   },
   {
-    imageUrl: 'course.png',
-    title: 'Complete Python Bootcamp From Zero to Hero in Python ',
+    imageUrl: 'course-5.png',
+    title: 'Real Estate NFT Trading ',
     price: '40',
-    tag: 'Desinger',
+    tag: 'Wall Street Trader',
     lesson: '24 ',
     status: 'alert-danger text-danger',
   },
@@ -53,41 +53,41 @@ const latestList = [
 const popularList = [
   {
     imageUrl: 'course.png',
-    title: 'Complete Python Bootcamp From Zero to Hero in Python ',
+    title: 'Carbon Credit & Tracability ',
     price: '2400',
-    tag: 'Python',
+    tag: 'Wall Street Anaylst',
     lesson: '32 ',
     status: 'alert-warning text-warning',
   },
   {
     imageUrl: 'course.png',
-    title: 'Complete Python Bootcamp From Zero to Hero in Python ',
+    title: 'Smart Car and NFTs ',
     price: '40',
-    tag: 'Desinger',
+    tag: 'Wall Street Trader',
     lesson: '24 ',
     status: 'alert-danger text-danger',
   },
   {
     imageUrl: 'course.png',
-    title: 'Java Programming Masterclass for Developers',
+    title: 'Carbon Credit & Tracability',
     price: '60',
-    tag: 'Bootstrap',
+    tag: 'Wall Street Trader',
     lesson: '14 ',
     status: 'alert-success text-success',
   },
   {
     imageUrl: 'course.png',
-    title: 'The Data Science Course Complete Data Science ',
+    title: 'Real Estate NFT Trading ',
     price: '370',
-    tag: 'Develop',
+    tag: 'CPA',
     lesson: '23 ',
     status: 'alert-danger text-danger',
   },
   {
     imageUrl: 'course.png',
-    title: 'Complete Python Bootcamp From Zero to Hero in Python ',
+    title: 'Real Estate NFT & Flipping ',
     price: '450',
-    tag: 'Desinger',
+    tag: 'Real Estate Agent',
     lesson: '24 ',
     status: 'alert-danger text-danger',
   },
@@ -95,56 +95,56 @@ const popularList = [
 
 const classesList = [
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-1.png',
     title: 'Bootstrap',
     num: '32 Course',
     bg: '#fcf1eb',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-12.png',
     title: 'HTML',
     num: '54 Course',
     bg: '#fff9eb',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-3.png',
     title: 'Jquery',
     num: '76 Course',
     bg: '#e5f4fb',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-4.png',
     title: 'SASS',
     num: '76 Course',
     bg: '#dcf4f8',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-5.png',
     title: 'React',
     num: '23 Course',
     bg: '#fcf1eb',
   },
 
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-6.png',
     title: 'JAVA',
     num: '78 Course',
     bg: '#fff9eb',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-7.png',
     title: 'Python',
     num: '65 Course',
     bg: '#e5f4fb',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-8.png',
     title: 'MongoDB',
     num: '11 Course',
     bg: '#fcf1eb',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-9.png',
     title: 'Bootstrap',
     num: '32 Course',
     bg: '#fcf1eb',
@@ -159,43 +159,43 @@ const classesList = [
 
 const memberList = [
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-1.png',
     name: 'Aliqa Macale ',
     email: 'support@gmail.com',
     bgimage: 'course.png',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-12.png',
     name: 'John Steere ',
     email: 'support@gmail.com',
     bgimage: 'course.png',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-5.png',
     name: 'Mohannad Zitoun ',
     email: 'support@gmail.com',
     bgimage: 'course.png',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-6.png',
     name: 'Aliqa Macale ',
     email: 'support@gmail.com',
     bgimage: 'course.png',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-7.png',
     name: 'Hendrix Stamp ',
     email: 'support@gmail.com',
     bgimage: 'course.png',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-8.png',
     name: 'Mohannad Zitoun ',
     email: 'support@gmail.com',
     bgimage: 'course.png',
   },
   {
-    imageUrl: 'user.png',
+    imageUrl: 'user-9.png',
     name: 'John Steere ',
     email: 'support@gmail.com',
     bgimage: 'course.png',
@@ -251,16 +251,16 @@ class Default extends Component {
                     <div
                       className="card rounded-xxl p-lg--5 border-0 bg-no-repeat bg-image-contain banner-wrap"
                       style={{
-                        backgroundImage: `url("https://via.placeholder.com/1100x720.png")`,
+                        backgroundImage: `url("https://res.cloudinary.com/glocomxus/image/upload/v1655052292/1100x720_9cdf0c2048.png")`,
                       }}
                     >
                       <div className="card-body p-4">
                         <h2 className="display3-size fw-400 display2-md-size sm-mt-7 sm-pt-10">
                           Find a perfect{' '}
-                          <b className="d-lg-block">Online Course</b>
+                          <b className="d-lg-block">Online Trading Course</b>
                         </h2>
                         <h4 className="text-grey-500 font-xssss fw-500 ml-1 lh-24">
-                          For only course you need to learn web development
+                          For only course you need to learn NFT Trading
                         </h4>
                         <div className="form-group mt-lg-4 p-3 border-light border p-2 bg-white rounded-lg ">
                           <div className="row">
@@ -279,11 +279,11 @@ class Default extends Component {
                               <div className="form-group icon-input mb-0">
                                 <i className="ti-package font-xs text-grey-400"></i>
                                 <select className="style1-select bg-transparent border-0 pl-5">
-                                  <option value="Bootstrap">Bootstrap</option>
-                                  <option value="HTML">HTML</option>
-                                  <option value="Jquery">Jquery</option>
-                                  <option value="Sass">Sass</option>
-                                  <option value="React">React</option>
+                                  <option value="Bootstrap">Trader</option>
+                                  <option value="HTML">CPA Anaylst</option>
+                                  <option value="Jquery">CFA Anaylst</option>
+                                  <option value="Sass">NFT Fannatics</option>
+                                  <option value="React">NFT Traders</option>
                                 </select>
                               </div>
                             </div>
@@ -301,7 +301,7 @@ class Default extends Component {
                           <b className="text-grey-800 text-dark">
                             Popular Search :
                           </b>
-                          Designer, Developer, PHP, HTML, CSS, SCSS
+                          Trader, CPA Anaylst, CFA Anaylst, NFT Fannatics, NFT Traders, Banks
                         </h4>
                       </div>
                     </div>
