@@ -259,10 +259,10 @@ class Default extends Component {
                       <div className="card-body p-4">
                         <h2 className="display3-size fw-400 display2-md-size sm-mt-7 sm-pt-10">
                           Find a perfect{' '}
-                          <b className="d-lg-block">Online Course</b>
+                          <b className="d-lg-block">Online NFT Trade Course</b>
                         </h2>
                         <h4 className="text-grey-500 font-xssss fw-500 ml-1 lh-24">
-                          For only course you need to learn web development
+                          For only course you need to learn NFT Trading
                         </h4>
                         <div className="form-group mt-lg-4 p-3 border-light border p-2 bg-white rounded-lg ">
                           <div className="row">
