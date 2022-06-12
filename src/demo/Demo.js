@@ -1,5 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Tabs, Tab } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import Header from '../components/Header';
+import Upperheader from '../components/Upperheader';
+import Footertwo from '../components/Footertwo';
+import Slider from 'react-slick';
 import './demo.css';
 
 const brandList = [
