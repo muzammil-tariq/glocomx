@@ -29,47 +29,47 @@ class Shopsidebar extends Component {
           <ul className="recent-post mt-2">
             <li className="mb-1">
               <a href="/shop-2" className="fw-600 font-xssss">
-                Dress
+                NFTs
               </a>
             </li>
             <li className="mb-1">
               <a href="/shop-2" className="fw-600 font-xssss">
-                Shirt
+                Real Estate NFTs
               </a>
             </li>
             <li className="mb-1">
               <a href="/shop-2" className="fw-600 font-xssss">
-                Jacket
+                Lumber NFTs
               </a>
             </li>
             <li className="mb-1">
               <a href="/shop-2" className="fw-600 font-xssss">
-                Jean
+                Carbon Credit NFTs
               </a>
             </li>
             <li className="mb-1">
               <a href="/shop-2" className="fw-600 font-xssss">
-                Men
+                Home Ownership NFTs
               </a>
             </li>
             <li className="mb-1">
               <a href="/shop-2" className="fw-600 font-xssss">
-                Shorts
+                Home Flipping NFTs
               </a>
             </li>
             <li className="mb-1">
               <a href="/shop-2" className="fw-600 font-xssss">
-                Swimwear
+                Luxury Real Estate NFTs
               </a>
             </li>
             <li className="mb-1">
               <a href="/shop-2" className="fw-600 font-xssss">
-                Tousers
+                Commercial Real Estate NFTs
               </a>
             </li>
             <li className="mb-1">
               <a href="/shop-2" className="fw-600 font-xssss">
-                Jumper Cardigans
+                Land Ownership NFTs
               </a>
             </li>
           </ul>
@@ -320,7 +320,7 @@ class Shopsidebar extends Component {
                       href="single-product.html"
                       className="text-grey-800 fw-700 font-xssss lh-22"
                     >
-                      Mi XXQ02HM Runtime: 60 min Trimmer for Men
+                      Mi XXQ02HM Runtime: 60 min Trimmer for NFT Fans
                     </a>
                   </h2>
                   <h6 className="font-xsss fw-600 text-grey-500 ls-2">$49</h6>
