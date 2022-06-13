@@ -57,6 +57,7 @@ import Default from './pages/Default';
 import Defaultcategory from './pages/Defaultcategory';
 import Defaultfollower from './pages/Defaultfollower';
 import Defaultsettings from './pages/Defaultsettings';
+import Defaultsettings from './pages/Defaultadmin';
 import Defaultsearch from './pages/Defaultsearch';
 import Defaultchannel from './pages/Defaultchannel';
 import Defaultlive from './pages/Defaultlive';
@@ -289,6 +290,11 @@ class Root extends Component {
             exact
             path={`${process.env.PUBLIC_URL}/default-settings`}
             component={Defaultsettings}
+             />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL}/default-admin`}
+            component={Defaultadmin}
           />
           <Route
             exact
