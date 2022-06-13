@@ -443,4 +443,4 @@ class Admin extends Component {
   }
 }
 
-export default Defaultadmin;
+export default Admin;
