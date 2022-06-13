@@ -22,7 +22,7 @@ class Header extends Component {
             <div className="col-lg-9 navbar pt-0 pb-0">
               <Link to="/">
                 <h1 className="fredoka-font ls-3 fw-700 text-current font-xxl">
-                  Elomoas
+                  GloComX
                   <span className="d-block font-xsssss ls-1 text-grey-500 open-font ">
                     Online Learning Course
                   </span>
