@@ -1,4 +1,10 @@
 import React, { Component, Fragment } from 'react';
+import Appfooter from '../components/Appfooter';
+import Navheader from '../components/Navheader';
+import Appheader from '../components/Appheader';
+import Profile from '../components/Profile';
+import Myclass from '../components/Myclass';
+import Subscribe from '../components/Subscribe';
 import Chart from 'react-apexcharts';
 
 import Adminsidebar from '../components/Adminsidebar';
