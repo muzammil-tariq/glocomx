@@ -11,7 +11,7 @@ class Navheader extends Component {
               <Link to="/">
                 <i className="feather-slack text-success display1-size mr-3 ml-3"></i>
                 <span className="d-inline-block fredoka-font ls-3 fw-600 text-current font-xl logo-text mb-0">
-                  Elomoas.
+                  GloComX.
                 </span>
               </Link>
               <Link to="/" className="close-nav d-inline-block d-lg-none">
@@ -166,6 +166,15 @@ class Navheader extends Component {
                 >
                   <i className="font-sm feather-pie-chart mr-3 text-grey-500"></i>
                   <span>Analytics</span>
+                </Link>
+              </li>
+             <li>
+                <Link
+                  to="/default-admin"
+                  className="nav-content-bttn open-font h-auto pt-2 pb-2"
+                >
+                  <i className="font-sm feather-pie-chart mr-3 text-grey-500"></i>
+                  <span>Admin</span>
                 </Link>
               </li>
               <li>
