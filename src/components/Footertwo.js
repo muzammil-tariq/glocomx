@@ -170,7 +170,7 @@ class Footertwo extends Component {
             <div className="col-sm-12 lower-footer"></div>
             <div className="col-sm-6">
               <p className="copyright-text">
-                © 2021 copyright. All rights reserved.
+                © GloComX 2022 copyright. All rights reserved.
               </p>
             </div>
             <div className="col-sm-6 text-right">
