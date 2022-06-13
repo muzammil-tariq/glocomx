@@ -17,7 +17,7 @@ class Searcharea extends Component {
                   <input
                     type="text"
                     className="style1-input border-0 pl-5 font-xsss mb-0 text-grey-500 fw-500 bg-transparent"
-                    placeholder="Search online courses.."
+                    placeholder="Search online Trading courses.."
                   />
                 </div>
               </div>
@@ -27,13 +27,13 @@ class Searcharea extends Component {
                   <i className="ti-package font-xs text-grey-400"></i>
                   <select className="style1-select bg-transparent border-0 pl-5">
                     <option value="">All Categories</option>
-                    <option value="151781441596 ">Fashion</option>
-                    <option value="139119624252 ">- Men</option>
-                    <option value="139118313532 ">- Women</option>
-                    <option value="139360141372 ">Electronics</option>
-                    <option value="152401903676 ">Home &amp; Garden</option>
-                    <option value="138866720828 ">- Decor</option>
-                    <option value="138866917436 ">- Lighting</option>
+                    <option value="151781441596 ">NFT Trading</option>
+                    <option value="139119624252 ">- Real Estate NFTs</option>
+                    <option value="139118313532 ">- Carrbon Credit NFTs</option>
+                    <option value="139360141372 ">Lumber NFTs</option>
+                    <option value="152401903676 ">Smart Car &amp; Uber Self-driving</option>
+                    <option value="138866720828 ">- Home Flipping</option>
+                    <option value="138866917436 ">- Home Ownership</option>
                   </select>
                 </div>
               </div>
