@@ -3,19 +3,19 @@ import Slider from 'react-slick';
 
 const skillList = [
   {
-    skill: 'user.png',
+    skill: 'user-1.png',
   },
   {
-    skill: 'user.png',
+    skill: 'user-3.png',
   },
   {
-    skill: 'user.png',
+    skill: 'user-12.png',
   },
   {
-    skill: 'user.png',
+    skill: 'user-4.png',
   },
   {
-    skill: 'user.png',
+    skill: 'user-5.png',
   },
 ];
 
@@ -37,7 +37,7 @@ class Profile extends Component {
         >
           <figure className="avatar ml-auto mr-auto mb-0 mt-2 w90">
             <img
-              src="assets/images/user.png"
+              src="assets/images/user-3.png"
               alt="avater"
               className="float-right shadow-sm rounded-circle w-100"
             />
