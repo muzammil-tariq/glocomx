@@ -24,7 +24,7 @@ class Header extends Component {
                 <h1 className="fredoka-font ls-3 fw-700 text-current font-xxl">
                   GloComX
                   <span className="d-block font-xsssss ls-1 text-grey-500 open-font ">
-                    Online Learning Course
+                    Online NFTs Trading Learning Course
                   </span>
                 </h1>
               </Link>
