@@ -86,7 +86,7 @@ class Appheader extends Component {
                     </span>
                   </h5>
                   <h6 className="text-grey-500 fw-500 font-xssss lh-4">
-                    Mobile Apps UI Designer is require..
+                    Real Estate NFT Expert is require..
                   </h6>
                 </div>
 
@@ -103,7 +103,7 @@ class Appheader extends Component {
                     </span>
                   </h5>
                   <h6 className="text-grey-500 fw-500 font-xssss lh-4">
-                    Mobile Apps UI Designer is require..
+                    Real Estate NFT Expert is require..
                   </h6>
                 </div>
                 <div className="card bg-transparent-card w-100 border-0 pl-5">
@@ -119,7 +119,7 @@ class Appheader extends Component {
                     </span>
                   </h5>
                   <h6 className="text-grey-500 fw-500 font-xssss lh-4">
-                    Mobile Apps UI Designer is require..
+                    NFT Trader is require..
                   </h6>
                 </div>
               </div>
