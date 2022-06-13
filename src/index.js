@@ -57,7 +57,7 @@ import Default from './pages/Default';
 import Defaultcategory from './pages/Defaultcategory';
 import Defaultfollower from './pages/Defaultfollower';
 import Defaultsettings from './pages/Defaultsettings';
-import Defaultsettings from './pages/Defaultadmin';
+import Defaultadmin from './pages/Defaultadmin';
 import Defaultsearch from './pages/Defaultsearch';
 import Defaultchannel from './pages/Defaultchannel';
 import Defaultlive from './pages/Defaultlive';
