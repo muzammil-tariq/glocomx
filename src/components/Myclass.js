@@ -2,26 +2,26 @@ import React, { Component } from 'react';
 
 const classList = [
   {
-    imageUrl: 'user.png',
-    title: 'Advanced Python Sass',
+    imageUrl: 'user-1.png',
+    title: 'NFT Trader',
     per: '87',
     status: 'bg-warning',
   },
   {
-    imageUrl: 'user.png',
-    title: 'Bootstrap SASS CSS ',
+    imageUrl: 'user-3.png',
+    title: 'Wall Street Analyst ',
     per: '96',
     status: 'bg-success',
   },
   {
-    imageUrl: 'user.png',
-    title: 'Basic JAVA',
+    imageUrl: 'user-12.png',
+    title: 'Real Estate NFT Agent',
     per: '95',
     status: 'bg-primary',
   },
   {
-    imageUrl: 'user.png',
-    title: 'React JS',
+    imageUrl: 'user-4.png',
+    title: 'Carbon Credit Expert',
     per: '55',
     status: 'bg-warning',
   },
