@@ -25,20 +25,22 @@ const LoginRoute = () => {
     setLoading(true);
     login(data)
       .then((response) => {
+        
         localStorage.setItem("user", JSON.stringify(response.data));
+        localStorage.setItem("token", response.data.data.AccessToken);
         dispatch(setAuth(response.data));
         setLoading(false);
         Notiflix.Notify.success("Login Success");
         history.push(from, { replace: true });
       })
       .catch((err) => {
-        console.log(err);
+        console.log(err.message);
         Notiflix.Notify.failure(err + "");
         setLoading(false);
       });
   };
   const onForgotClick = () => {
-    history.push("/forgot-password");
+    history.push("/forgot");
   };
   return (
     <div className="row">

@@ -18,7 +18,6 @@ const Forgot = () => {
   } = useForm();
   const onSubmit = async (data) => {
     try {
-      debugger;
       if (search.validationId) {
         await forgotPassword({
           email: data.email,

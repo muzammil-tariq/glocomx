@@ -48,6 +48,7 @@ import Userprofile from "./pages/Userprofile";
 import Authorprofile from "./pages/Authorprofile";
 import Coursedetails from "./pages/Coursedetails";
 import Coursedetailstwo from "./pages/Coursedetailstwo";
+import jwtDecode from "jwt-decode";
 
 import Default from "./pages/Default";
 import Defaultcategory from "./pages/Defaultcategory";
@@ -82,6 +83,7 @@ import { initUser } from "./redux/reducers/authReducer";
 import { useAppDispatch } from "./redux/hooks/hooks";
 import Loader from "./components/Loader";
 import EmailConfirmation from "./pages/EmailConfirmationRoute";
+
 const App = () => {
   const dispatch = useAppDispatch();
   const [isMounted, setIsMounted] = React.useState(false);
@@ -97,8 +99,6 @@ const App = () => {
   return (
     <BrowserRouter basename={"/"}>
       <Switch>
-        <Route path="/confirm/email/:id" element={<EmailConfirmation />} />
-        <Route path="/reset/password/:id" element={<EmailConfirmation />} />
         <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo} />
         <Route
           exact
@@ -114,65 +114,137 @@ const App = () => {
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-email`}
-          component={Adminemail}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminemail />
+              </ProtectedRoute>
+            </>
+          )}
         />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-chat`}
-          component={Adminchat}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminchat />
+              </ProtectedRoute>
+            </>
+          )}
         />
 
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-productlist`}
-          component={Adminproductlist}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminproductlist />
+              </ProtectedRoute>
+            </>
+          )}
         />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-productgrid`}
-          component={Adminproductgrid}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminproductgrid />
+              </ProtectedRoute>
+            </>
+          )}
         />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-productadd`}
-          component={Adminproductadd}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminproductadd />
+              </ProtectedRoute>
+            </>
+          )}
         />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-customer`}
-          component={Admincustomer}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Admincustomer />
+              </ProtectedRoute>
+            </>
+          )}
         />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-customerview`}
-          component={Admincustomerview}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Admincustomerview />
+              </ProtectedRoute>
+            </>
+          )}
         />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-order`}
-          component={Adminorder}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminorder />
+              </ProtectedRoute>
+            </>
+          )}
         />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-orderview`}
-          component={Adminorderview}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminorderview />
+              </ProtectedRoute>
+            </>
+          )}
         />
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-venderlist`}
-          component={Adminvenderlist}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminvenderlist />
+              </ProtectedRoute>
+            </>
+          )}
         />
 
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-venderview`}
-          component={Adminvenderview}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminvenderview />
+              </ProtectedRoute>
+            </>
+          )}
         />
 
         <Route
           exact
           path={`${process.env.PUBLIC_URL}/admin-review`}
-          component={Adminreview}
+          render={() => (
+            <>
+              <ProtectedRoute>
+                <Adminreview />
+              </ProtectedRoute>
+            </>
+          )}
         />
 
         <Route
@@ -451,6 +523,22 @@ const App = () => {
           exact
           path={`${process.env.PUBLIC_URL}/home-2`}
           component={Hometwo}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/confirm/email/:id`}
+          render={() => (
+            <>
+              <EmailConfirmation />
+            </>
+          )}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/reset/password/:id`}
+          render={() => (
+            <>
+              <EmailConfirmation />
+            </>
+          )}
         />
       </Switch>
     </BrowserRouter>

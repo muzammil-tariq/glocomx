@@ -8,7 +8,7 @@ const EmailConfirmation = () => {
   const { id } = useParams();
   const history = useHistory();
   const { pathname } = useLocation();
-
+  console.log("hello");
   const [loading, setLoading] = React.useState(false);
   React.useEffect(() => {
     if (id) confirmEmailFun();
@@ -18,7 +18,7 @@ const EmailConfirmation = () => {
     try {
       setLoading(true);
       if (pathname.includes("reset/password")) {
-        history.push(`/forgot-password?validationId=${id}`, { replace: true });
+        history.push(`/forgot?validationId=${id}`, { replace: true });
         return;
       }
       await confirmEmail(id);

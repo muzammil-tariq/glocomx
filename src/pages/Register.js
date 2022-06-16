@@ -60,6 +60,7 @@ const RegisterRoute = () => {
       formData.append("image", files[0]);
       profilePic = await imageUpload(formData);
     }
+
     let dataPayload = {
       firstName: data.firstName,
       lastName: data.lastName,
@@ -67,13 +68,10 @@ const RegisterRoute = () => {
       password: data.password,
       confirmPassword: data.confirmPassword,
       roles: ["user"],
-      ...(files.length > 0
-        ? {
-            profilePic: profilePic?.data.data.ImageUrl,
-          }
-        : null),
     };
-
+    if (files.length > 0) {
+      data.profilePic = profilePic?.data.ImageUrl;
+    }
     if (data.password !== data.confirmPassword) {
       Notiflix.Notify.warning("Password does not match.");
     }
@@ -87,12 +85,17 @@ const RegisterRoute = () => {
       .catch((err) => {
         console.log(err);
         setLoading(false);
-        Notiflix.Notify.failure(err + "");
+        Notiflix.Notify.failure(err.message + "");
       });
   };
 
   return (
-    <div className="row">
+    <div
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+      }}
+    >
       <div
         className="col-xl-5 d-none d-xl-block p-0 vh-100 bg-image-cover bg-no-repeat"
         style={{ background: "url('./assets/images/login-bg-2.jpg')" }}
