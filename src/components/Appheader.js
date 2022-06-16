@@ -71,10 +71,7 @@ const Appheader = () => {
                   There are many variations of pass..
                 </h6>
               </div>
-              <div
-                onClick={() => history.push("/login")}
-                className="card bg-transparent-card w-100 border-0 pl-5 mb-3"
-              >
+              <div className="card bg-transparent-card w-100 border-0 pl-5 mb-3">
                 <img
                   src="assets/images/user-4.png"
                   alt="user"
@@ -134,13 +131,12 @@ const Appheader = () => {
           </Link>
         </li>
         <li>
-          <Link to="/default-user-profile">
-            <img
-              src="assets/images/user.png"
-              alt="user"
-              className="w40 mt--1 rounded-circle"
-            />
-          </Link>
+          <img
+            onClick={() => history.push("/login")}
+            src="assets/images/user.png"
+            alt="user"
+            className="w40 mt--1 rounded-circle"
+          />
         </li>
         <li>
           <span onClick={toggleActive} className="menu-search-icon">
